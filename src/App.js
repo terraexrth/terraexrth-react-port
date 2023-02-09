@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import { Helmet } from 'react-helmet';
+
 import "./App.css";
 import Androidpage from "./components/Androidpage";
 import Etcpage from "./components/Etcpage";
@@ -43,9 +43,7 @@ function App() {
   return (
 	
     <div className="App">
-		<Helmet>
-			<title>terraexrth</title>
-		</Helmet>
+	
       <header className="App-header">
         <div className="container">
           <div className="leftContent">
